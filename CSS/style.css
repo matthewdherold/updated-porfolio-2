@@ -4,8 +4,8 @@ body {
 }
 
 nav {
+    position: fixed;
     background-color: mintcream;
-    padding: 4ch;
     width: 100%;
     height: 12ch;
 }
@@ -15,11 +15,8 @@ nav {
     max-width: 14%;
 }
 
-@media screen and (max-width: 1079px) {
-    .badgeImgs {
-        max-height: 80px;
-        max-width: 80px;
-    }
+.portImg {
+    max-width: 70%;
 }
 
 footer {
@@ -58,6 +55,10 @@ footer {
     padding: 4ch;
 }
 
+.formInput {
+    max-width: 50%;
+}
+
 .formLabel {
     padding: 1ch;
 }
@@ -68,6 +69,10 @@ footer {
     padding: 4ch;
 }
 
+#userMessage {
+    max-width: 70%;
+}
+
 #banner {
     display: inline-block;
     padding: 4ch;
@@ -76,6 +81,7 @@ footer {
 }
 
 #aboutMe {
+    font-size: x-large;
     padding-top: 2ch;
     text-align: center;
 }
@@ -103,10 +109,21 @@ footer {
 }
 
 #navbarSupportedContent {
-    float: right;
+    z-index: 2;
+    width: 100%;
+    padding: 1ch;
+    background-color: mintcream;
 }
 
-#navList {
-    position: fixed; 
-    right: 1%;
+@media screen and (max-width: 1079px) {
+    .badgeImgs {
+        max-height: 80px;
+        max-width: 80px;
+    }
+    #portfolioCon {
+        display: inline-block;
+    }
+    .portImg {
+        max-width: 80%;
+    }
 }
