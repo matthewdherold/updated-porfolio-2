@@ -1,0 +1,112 @@
+body {
+    background-color: lightcyan;
+    font-size: 110%;
+}
+
+nav {
+    background-color: mintcream;
+    padding: 4ch;
+    width: 100%;
+    height: 12ch;
+}
+
+.badgeImgs {
+    padding: 1ch;
+    max-width: 14%;
+}
+
+@media screen and (max-width: 1079px) {
+    .badgeImgs {
+        max-height: 80px;
+        max-width: 80px;
+    }
+}
+
+footer {
+    background-color: mintcream;
+    position: fixed;
+    bottom: 0;
+    padding: 2ch;
+    width: 100%;
+    height: 8ch;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolioCon {
+    display: flex;
+}
+
+.nav-link {
+    color: darkolivegreen;
+    background:  transparent;
+    border: none;
+    outline: none;
+}
+
+.nav-link:focus {
+    border: none;
+    outline: none;
+}
+
+.currentPage {
+    font-weight: 650;
+}
+
+.formGroup {
+    padding: 4ch;
+}
+
+.formLabel {
+    padding: 1ch;
+}
+
+.elementForm {
+    margin: 5ch; 
+    background-color: mintcream; 
+    padding: 4ch;
+}
+
+#banner {
+    display: inline-block;
+    padding: 4ch;
+    padding-bottom: 6ch;
+    background-image: linear-gradient(rgb(177, 180, 178), rgb(177, 190, 178), rgb(177, 200, 178));
+}
+
+#aboutMe {
+    padding-top: 2ch;
+    text-align: center;
+}
+
+#aboutMeDiv {
+    margin-bottom: 4ch;
+    padding: 1ch;
+    display: inline-block;
+}
+
+#homeImgDiv {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+#homeImg {
+    padding-bottom: 1ch; 
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#navHead {
+    color: darkgreen
+}
+
+#navbarSupportedContent {
+    float: right;
+}
+
+#navList {
+    position: fixed; 
+    right: 1%;
+}
